@@ -11,7 +11,7 @@ export const ModelsGroup = () => {
         fallback={
           <PlaceHolderComponent
             position={[0, 0, 4]}
-            text={"Estoy Cargando..."}
+            text={"Cargando Hamburguesita..."}
           />
         }
       >
@@ -22,7 +22,7 @@ export const ModelsGroup = () => {
         fallback={
           <PlaceHolderComponent
             position={[0, 0, -2]}
-            text={"Estoy Cargando..."}
+            text={"Cargando al Zorrillo..."}
           />
         }
       >
