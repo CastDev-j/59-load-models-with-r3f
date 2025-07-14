@@ -5,7 +5,7 @@ import { useControls } from "leva";
 import { useEffect } from "react";
 
 export const Fox = (props: any) => {
-  const { scene, animations } = useGLTF("/public/Fox/glTF-Binary/Fox.glb");
+  const { scene, animations } = useGLTF("/Fox/glTF-Binary/Fox.glb");
 
   const { ref, actions, names } = useAnimations(animations);
 
